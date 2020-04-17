@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./demomode.sh</path>
+		<name>demo mode</name>
+		<desc>The demo mode starts and switches to a new random game after a minute unless controller or keyboard input is detected. The demo mode is a great way to discover new games in large collections.
+ </desc>
+		<image>./icons/demomode.png</image>
+		<rating>0</rating>
+		<playcount>0</playcount>
+		<lastplayed>0</lastplayed>
+	</game>
+</gameList>
