@@ -13,7 +13,7 @@ import time
 import logging
 
 logging.basicConfig(filename='/var/tmp/rungames.log',level=logging.INFO)
-game_exclusions = [ '.*/genesis/.*','.*/apple2/.*','.*/bbcmicro/.*','.*/cdimono1/.*','.*/mame-advmame/.*','.*/nds/*.dsv', '.*/pc/pcdata/.*', '.*/vectrex/overlays/.*', '.*/psx/.bin', '.*/*/*.srm*', '.*/*/*.state*', '.*/snes/*.state','.*/videopac/.*','.*/ti99/.*']
+game_exclusions = [ '.*/gamelist.xml','.*/genesis/.*','.*/apple2/.*','.*/bbcmicro/.*','.*/cdimono1/.*','.*/mame-advmame/.*','.*/nds/*.dsv', '.*/pc/pcdata/.*', '.*/vectrex/overlays/.*', '.*/psx/.bin', '.*/*/*.srm*', '.*/*/*.state*', '.*/snes/*.state','.*/videopac/.*','.*/ti99/.*']
 INACTIVITY_TIMEOUT = 60
 
 def filter_games(gamename) :
